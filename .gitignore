@@ -1,0 +1,17 @@
+target/
+Cargo.lock
+
+**/Cargo.lock
+**/*.rs.bk
+
+.idea/
+.vscode/
+*.iml
+
+.DS_Store
+.env
+
+**/target/
+**/debug/
+**/debug-release/
+**/release/
