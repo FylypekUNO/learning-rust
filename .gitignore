@@ -4,10 +4,6 @@ Cargo.lock
 **/Cargo.lock
 **/*.rs.bk
 
-.idea/
-.vscode/
-*.iml
-
 .DS_Store
 .env
 
