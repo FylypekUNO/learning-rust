@@ -16,13 +16,13 @@ fn main() {
   println!();
 
   let fixed_size = 10;
-  println!("{{:>fixed_size$}}: {:>fixed_size$}", string, fixed_size = fixed_size);
+  println!(
+    "{{:>fixed_size$}}: {:>fixed_size$}",
+    string,
+    fixed_size = fixed_size
+  );
 
-  let array = [
-    "Hello",
-    "World",
-    "Rust",
-  ];
+  let array = ["Hello", "World", "Rust"];
 
   let formatted = array
     .iter() // switch from array to iterator

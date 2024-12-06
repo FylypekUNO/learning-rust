@@ -11,11 +11,7 @@ fn main() {
   println!("Tuple {{:?}}: {:?}", tuple);
   println!("Tuple {{:#?}}: {:#?}", tuple);
 
-  let dict = vec![
-    ("key1", "value1"),
-    ("key2", "value2"),
-    ("key3", "value3"),
-  ];
+  let dict = vec![("key1", "value1"), ("key2", "value2"), ("key3", "value3")];
 
   // println!("Dict {{}}: {}", dict); // cannot be formatted with the default formatter
   println!("Dict {{:?}}: {:?}", dict);
