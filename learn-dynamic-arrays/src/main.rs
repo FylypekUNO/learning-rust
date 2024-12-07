@@ -26,8 +26,6 @@ fn main() {
   let new_sum = sum_string(&strings);
   println!("{}", new_sum);
 
-  let strings = vec!["one", "two", "three"];
-
   let filtered_strings = strings
     .iter()
     .filter(|s| s.len() > 4)
